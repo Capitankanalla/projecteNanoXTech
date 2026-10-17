@@ -15,7 +15,7 @@ La web ha de servir com a eina de vendes directa per tancar els **primers 5-6 cl
 
 ## 🔒 Llicència i Propietat
 * **Accés:** Projecte públic (Repositori propietat de l'autor).
-* **Llicència:** Tots els drets reservats. Prohibida la reproducció o distribució sense autorització expressa. Aquesta demo **no concedeix cap dret** d'ús, còpia ni modificació.
+* **Llicència:** Tots els drets reservats. Prohibida la reproducció o distribució sense autorització expressa. Aquesta demo **no concedeix cap dret** d'ús, còpia ni modificació o distribució.
 
 Si t'interessa un projecte similar o t'agrada el que estàs veient contacta'm per privat o al mail: [nanoxtechnologies@gmail.com]
 
