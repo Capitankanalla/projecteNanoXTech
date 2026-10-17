@@ -20,10 +20,10 @@ La web ha de servir com a eina de vendes directa per tancar els **primers 5-6 cl
 Si t'interessa un projecte similar o t'agrada el que estàs veient contacta'm per privat o al mail: [nanoxtechnologies@gmail.com]
 
 ---
-
-## 🏗️ Estructura i Fases del Projecte
+## Fases del Projecte
 
 El projecte s'executarà de manera incremental per tenir una versió operativa com més aviat millor (MVP de conversió) i anar afegint funcionalitats segons les necessitats de negoci.
+
 
 ### Fase 1 — MVP Estàtic & Captació (Frontend Pur)
 * **Header:** Logo, navegació clara i botó d'acció directament a contacte/reunió.
@@ -78,3 +78,33 @@ El projecte s'executarà de manera incremental per tenir una versió operativa c
 * **Directe al gra:** Poques paraules, missatge clar i sense tecnicismes innecessaris per al client final.
 * **Alt rendiment:** Carregament instantani (Sense carrgues pesades inútils).
 * **CRIs (Crides a l'acció):** Visibles a cada secció per facilitar que el client contacti en qualsevol moment.
+
+## 🏗️ Estructura del Projecte
+
+El projecte s'executarà de manera incremental per tenir una versió operativa com més aviat millor (MVP de conversió) i anar afegint funcionalitats segons les necessitats de negoci.
+
+/
+├── index.html                  # Landing principal (shell de la home)
+├── README.md                   # Documentació general del projecte
+├── .gitignore                  # Protecció de fitxers (secrets, os, temp)
+├── .env                        # Variables d'entorn locals
+│
+└── src/
+    ├── html/
+    │   ├── footer.html         # Component de footer independent
+    │   └── contacto.html       # Pàgina/Vista independent de contacte
+    │
+    ├── css/
+    │   ├── global.css          # Reset, variables i estils base (Mobile First)
+    │   ├── index.css           # Estils específics de la Home
+    │   ├── footer.css          # Estils del component footer
+    │   └── contacto.css        # Estils de la pàgina de contacte
+    │
+    ├── js/
+    │   ├── main.js             # Lògica general (menú mòbil, interaccions)
+    │   ├── footer.js           # Carregador/injector del footer.html
+    │   ├── contacto.js         # Lògica del formulari de contacte
+    │   └── json/
+    │       └── textos.json     # Font única de veritat per als textos (sense hardcodejar)
+    │
+    └── imgs/                   # Tots els recursos gràfics, WebPs i SVGs optimitzats
